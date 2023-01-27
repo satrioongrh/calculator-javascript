@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+    <title>Document</title>
+  </head>
+  <body>
+    <table class="stable">
+      <tr class="result">
+        <td colspan="4"><span id="results"></span></td>
+      </tr>
+      <tr>
+        <td colspan="2"><button class="ac top-btn" id="btn-ac">ac</button></td>
+        <td><button class="top-btn" onclick="modulus()">%</button></td>
+        <td><button class="right-btn" onclick="kali()">x</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="print(1)">1</button></td>
+        <td><button onclick="print(2)">2</button></td>
+        <td><button onclick="print(3)">3</button></td>
+        <td><button class="right-btn" onclick="bagi()">:</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="print(4)">4</button></td>
+        <td><button onclick="print(5)">5</button></td>
+        <td><button onclick="print(6)">6</button></td>
+        <td><button class="right-btn" onclick="kurang()">-</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="print(7)">7</button></td>
+        <td><button onclick="print(8)">8</button></td>
+        <td><button onclick="print(9)">9</button></td>
+        <td><button class="right-btn" onclick="tambah()">+</button></td>
+      </tr>
+      <tr>
+        <td colspan="2"><button class="ac top-btn" onclick="print(0)">0</button></td>
+        <td><button class="top-btn" onclick="koma()">,</button></td>
+        <td><button class="right-btn" onclick="hasil()">=</button></td>
+      </tr>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
